@@ -1,0 +1,55 @@
+{
+    "Region": 4, /*255 - Preferred, 0 - US East, 1 - US West, 2 - South America, 3 - Europe, 4 - Asia, 5 - Australia, 6 - Middle East, 7 - Africa*/
+    "MaxPlayers": 16,
+    "VoteKickCount": 3, /*votes needed to kick player, by default: 3*/
+    "Title": "Kontra 55", /*Server Title*/
+    "Password": "", /*Server Password*/
+    "AllowVoteKick": true, /*allow anyone to vote for a kick, by default false*/
+    "VoiceChatType": 1, /*0 - none, 1 - standard, 2 - proximity, 3 - proximity, 2d when dead, 4 - 2d*/
+    /*"EnemyCollision": false,*/
+    /*"TeamCollision": false,*/
+    /*"DeathmatchStyle": false,*/ /*surf only*/
+    /*"FallDamage": false,*/
+    /*"BunnyHopAllowed": false,*/
+    /*"HasWarmUp": true,*/
+    /*"WeaponForcePushMultiplier": 0.1,*/
+    /*"SpeedMultiplier": 1,*/
+    /*"JumpVelocityMultiplier": 1,*/
+    /*"MatchDurationSec": 480,*/
+    /*"DuelDurationSec": 120,*/
+    /*"MapDurationSec": 480,*/
+    /*"WarmUpDurationSec": 45,*/
+    /*"TickBasedRNG": false,*/ //tick based rng gives identical spread on client & server but is prone to hacks ('false' by default in servers, 'true' in LAN)
+    /*"TimeScale": 1,*/ /*game speed, clamped at (0.3, 1) (not implemented yet, future update)*/
+    /*"NemesisHp": 60000,*/
+    /*"AssassinHp": 32000,*/
+    /*"SurvivorHp": 2000,*/
+    /*"SurvivorArmor": 4000,*/
+
+    /*player inactivity timeouts (-1 to disable timeout)*/
+    /*"LoadMapTimeout": 120,*/
+    /*"PlayerInactivityTimeout": 180,*/ /*if player not moved in x seconds*/
+    /*"PendingPlayerInactivityTimeout": 180,*/ /*if player haven't joined team (failed to sync with server etc.) in x seconds after loading a map*/
+    "MasterServers": [], /*max 2 servers, example: [ "example.com:26950", "example2.com:26950" ]*/
+    "Events": [
+        {
+            "eventTag": "SERVER",
+            "eventMessage": "Hello from server Join Telegram chenel @kontra_55",
+            "startTime": 4,
+            "repeatRate": 180,
+            "duration": 10,
+            "eventColor32": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 255
+            },
+            "messageColor32": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 255
+            }
+        }
+    ]
+}

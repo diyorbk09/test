@@ -1,0 +1,52 @@
+/*
+    Flags:
+    a - mute
+    b - kick
+    c - ban & unban
+    d - change server configs/settings
+    e - add/remove admins, vips
+    f - /dmg & /kill commands
+    g - /event command
+    h - /revive
+    i - /list <players|admins|vips> command
+    j - /give <item>
+    k - set team
+    l - /teleport
+    m -
+    n -
+    o -
+    p -
+    q -
+    ...
+*/
+
+{
+    /*Admin default flags: abcfgh*/
+    "Admins": [
+        {
+            "username": "100playme",
+            "password": "lufxclub1231", /*optional*/
+            "ip": "0.0.0.0", /*optional*/
+            "flags": "abcd", /*optional*/
+            "prefix": "ADMIN+", /*optional*/
+            "prefixColor": "#ff0000" /*optional*/
+        },
+        {
+            "username": "ProGamer123"
+        }
+    ],
+    /*VIP default flags: abfg*/
+    "VIPs": [
+        {
+            "username": "Lusifer",
+            "password": "lugxclub321", /*optional*/
+            "ip": "0.0.0.1", /*optional*/
+            "flags": "ab", /*optional*/
+            "prefix": "VIP++", /*optional*/
+            "prefixColor": "#00ff00" /*optional*/
+        },
+        {
+            "username": "ProVip123"
+        }
+    ]
+}
